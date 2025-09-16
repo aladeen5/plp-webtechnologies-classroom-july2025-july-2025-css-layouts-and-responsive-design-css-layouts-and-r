@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flexbox & Grid Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Responsive Website</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout using CSS Grid -->
+  <main class="grid-container">
+    <section class="content">
+      <h2>Welcome</h2>
+      <p>This layout uses CSS Grid for the main structure and Flexbox for the navigation bar and cards below. Resize the screen to see how it adjusts!</p>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>Flexbox makes these cards align nicely and stay responsive.</p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>Cards wrap to the next line when the screen gets smaller.</p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>Try resizing this page to see them adjust gracefully.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>This sidebar uses Grid column placement and moves below the content on smaller screens.</p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
